@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header,
+footer {
+    height: 5vh;
+    background-image: linear-gradient(darkcyan, yellow);
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    color: white;
+
+    a {
+        color: white;
+    }
+}
+
+header {
+    justify-content: space-between;
+
+}
+
+footer {
+    justify-content: space-around;
+
+    a {
+        font-size: 20px;
+    }
+}
+
+.MyFooter {
+    p {
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+}
+
+.Me {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    gap: 10px;
+}
