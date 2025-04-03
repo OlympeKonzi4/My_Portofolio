@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header, footer{
+    height: 5vh;
+    background-image: linear-gradient(darkcyan, yellow);
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    color: white;
+    a {
+        color: white;
+        }
+}
+header{
+    justify-content: space-between;
+    
+}
+footer {
+    justify-content: space-around;
+    a {
+            font-size: 20px;
+        }
+}
+.MyFooter{
+    p{
+        padding-bottom: 10px;
+}
+}
+.Me{
+   font-size: 20px;
+   font-weight:bold; 
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    gap:10px;
+}
+#MyMain{
+    height: 90%;
+    display: flex;
+}
+.MyPhoto, .MyInfo{
+    width: 50%;
+    padding: 100px;
+}
+.MyPhoto{
+    display: flex;
+    justify-content: flex-end;
+    img{
+        border-radius: 5000px;
+    }
+}
+.MyInfo{
+    display: flex;
+    flex-direction: column;
+}
+.MyInfoText {
+    padding: 50px;
+    text-align: justify;
+    h1, h2, p{
+        padding: 10px;
+        color: darkcyan;
+    }
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 50px;
+}
+p{
+    font-size: 30px;
+}
+.MyInfoLien{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    text-align: center;
+}
+#CV, #Projects, #Contact{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+}
+#CV{
+    background: yellow;
+}
+#Projects{
+    background-image: linear-gradient(to right, yellow, darkcyan)
+}
+#Contact{
+background: darkcyan;
+}
