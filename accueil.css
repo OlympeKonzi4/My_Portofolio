@@ -4,57 +4,65 @@
     text-decoration: none;
 }
 /* En tête et Pied */
-header, footer{
+header,
+footer {
     height: 5vh;
     background-image: linear-gradient(darkcyan, yellow);
     display: flex;
     align-items: center;
-    padding: 20px 30px;
+    padding: 1.2em 2.4em;
     color: white;
+
     a {
         color: white;
-        }
+    }
 }
-header{
+
+header {
     justify-content: space-between;
-    
+
 }
+
 footer {
     justify-content: space-around;
+
     a {
-            font-size: 20px;
-        }
+        font-size: 1.2rem;
+    }
 }
-.MyFooter{
-    p{
-        padding-bottom: 10px;
-        font-size: 20px;
+
+.MyFooter {
+    p {
+        padding-bottom: 0.8em;
+        font-size: 1.2rem;
+    }
 }
+
+.Me {
+    font-size: 1.2rem;
+    font-weight: bold;
 }
-.Me{
-   font-size: 20px;
-   font-weight:bold; 
-}
-.info{
+
+.info {
     display: flex;
     justify-content: space-between;
-    font-size: 20px;
-    gap:10px;
+    font-size: 1.2rem;
+    gap: 0.8em;
 }
 /* Section Main */
 #MyMain{
-    height: 90%;
+    height: 81.5vh;
     display: flex;
 }
 .MyPhoto, .MyInfo{
     width: 50%;
-    padding: 100px;
+    padding: 8em;
 }
 .MyPhoto{
     display: flex;
     justify-content: flex-end;
     img{
-        border-radius: 5000px;
+        border-radius: 80em;
     }
 }
 .MyInfo{
@@ -62,40 +70,41 @@ footer {
     flex-direction: column;
 }
 .MyInfoText {
-    padding: 50px;
+    padding: 2em;
     text-align: justify;
     h1, h2, p{
-        padding: 10px;
+        padding: 0.2em;
         color: darkcyan;
     }
 }
 h1{
-    font-size: 70px;
+    font-size: 5rem;
 }
 h2{
-    font-size: 50px;
+    font-size: 3rem;
 }
 p{
-    font-size: 30px;
+    font-size: 1.5rem;
 }
 .MyInfoLien{
     display: flex;
     justify-content: center;
-    gap:30px;
+    gap: 1em;
     text-align: center;
 }
 #CV, #Projects, #Contact{
-    width: 100px;
-    height: 100px;
+    width: 5em;
+    height: 5em;
     border-radius: 50px;
     border: none;
-    font-size: 20px;
+    font-size: 1.2rem;
     text-align: center;
-    line-height: 100px;
+    line-height: 5em;
     color: white;
 }
 #CV{
     background: yellow;
+    color: darkcyan;
 }
 #Projects{
     background-image: linear-gradient(to right, yellow, darkcyan)
