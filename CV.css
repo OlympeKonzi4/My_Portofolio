@@ -1,9 +1,10 @@
 * {
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     text-decoration: none;
 }
 
+/* En tête et Pied */
 header,
 footer {
     height: 5vh;
@@ -48,4 +49,9 @@ footer {
     justify-content: space-between;
     font-size: 20px;
     gap: 10px;
+}
+
+/* Sectoin Main */
+#MyCV{
+    box-sizing: border-box;
 }
