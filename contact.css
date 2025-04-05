@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    /* padding: 0; */
+    text-decoration: none;
+    color: darkcyan;
+}
+
+/* En tête et Pied */
+header,
+footer {
+    height: 5vh;
+    background-image: linear-gradient(darkcyan, yellow);
+    display: flex;
+    align-items: center;
+    padding: 1.2em 2.4em;
+    color: white;
+
+    a {
+        color: white;
+    }
+}
+
+header {
+    justify-content: space-between;
+
+}
+
+footer {
+    justify-content: space-around;
+
+    a {
+        font-size: 1.2rem;
+    }
+}
+
+.MyFooter {
+    p {
+        padding-bottom: 0.8em;
+        font-size: 1.2rem;
+        color: white;
+    }
+}
+
+.Me {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    gap: 0.8em;
+}
+/* Section Main */
+
+#contact{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    padding: 6.5em;
+}
+.left, .right{
+    width: 50%;
+    padding: 1em 0 5em 0;
+}
+.left{
+    h1 {
+            color: darkcyan;
+            font-size: 2.8rem;
+            padding-bottom: 0.5em;
+        }
+        p, a{
+        font-size: 1.8rem;
+        padding: 0.5em 0 0.5em 0;
+        /* color: black; */
+        }
+        p{font-weight: bold;
+        }
+}
+#right{
+    display: flex;
+    flex-wrap: wrap;
+    div{
+        width: 50%;
+    }
+}
+#nom,#Pnom,#email,#objet{
+    height: 2em;
+    width: 90%;
+}
+label{
+    font-size: 1.5rem;
+}
+#message{
+    height: 15em;
+    width: 90%;
+}
+#send{
+    margin: auto;
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 5em;
+    background: yellow;
+    color: darkcyan;
+}
+.send{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
