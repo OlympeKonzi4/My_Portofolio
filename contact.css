@@ -1,11 +1,10 @@
 /* Section Main */
 
 #contact{
-    width: 60%;
-    margin: auto;
+    width: 80%;
     display: flex;
     justify-content: flex-start;
-    padding: 6.5em;
+    margin: 3em;
 }
 .left, .right{
     width: 50%;
@@ -20,7 +19,6 @@
         p, a{
         font-size: 1.8rem;
         padding: 0.5em 0 0.5em 0;
-        /* color: black; */
         }
         p{font-weight: bold;
         }
@@ -59,4 +57,50 @@ label{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+/* Partie Responsive */
+
+@media screen and (max-width: 800px) {
+
+    /* Main */
+    #contact{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .left, .right{
+    width: 100%;
+    padding: 1em 0 5em 0;
+}
+}
+
+@media screen and (max-width: 650px) {
+
+    /* Main */
+   #right{
+    div{
+        width: 100%;
+        }
+    }
+    #send{
+margin-top: 0.5em;
+    }
+}
+
+@media screen and (max-width: 356px) {
+
+    /* Main */
+.left{
+    h1{
+        font-size: 1.8rem;
+    }
+    p,a{
+        font-size: 1rem;
+    }
+}
+label{
+    font-size: 1rem;
+}
+#send{
+    font-size: 1rem;
+}
 }
