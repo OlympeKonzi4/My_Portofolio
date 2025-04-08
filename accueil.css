@@ -126,3 +126,116 @@ p {
 }
 /* Partie Responsive */
 
+@media screen and (max-width: 990px){
+    h1 {
+        font-size: 2.5rem;
+        }
+            
+    h2 {
+        font-size: 1.8rem;
+    }
+            
+    p {
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 800px){
+    footer{
+        height: 18vh;
+        flex-wrap: wrap;
+        .MyFooter{
+            width: 50%;
+            padding: 0.1em 0 0.1em 0;
+        }
+    }
+    
+    #MyMain{
+        height: 70vh;
+    }
+    h1 {
+        font-size: 2rem;
+        }
+            
+    h2 {
+        font-size: 1.5rem;
+    }
+            
+    p {
+        font-size: 1rem;
+    }
+    #CV,
+    #Projects,
+    #Contact {
+            width: 4em;
+            height: 4em;
+            font-size: 1rem;
+            line-height: 4em;
+        }
+    .MyInfo{
+    margin: 0 7em 0 3em;
+    }
+}
+@media screen and (max-width: 650px){
+    header, footer{
+        a, p{
+            font-size: 1rem;
+        }
+    }
+    h1 {
+            font-size: 1.8rem;
+        }
+    
+        h2 {
+            font-size: 1.2rem;
+        }
+    
+        p {
+            font-size: 0.8rem;
+        }
+
+    #CV,
+    #Projects,
+    #Contact {
+            width: 4em;
+            height: 4em;
+            font-size: 0.8rem;
+            line-height: 4em;
+        }
+    .MyInfo{
+    margin: 0 4em 0 1.5em;
+    }
+}
+@media screen and (max-width: 498px){
+    header,
+    footer{
+        height: 7vh;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:0.5em;
+        .MyFooter{
+            width: 100%;
+            text-align: center;
+            padding: 0.1em 0 0.1em 0;
+        }
+    }
+    .Me, .info{
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    footer{
+        height: 32vh;
+    }
+    #MyMain{
+        flex-direction: column;
+        height: 75vh;
+    }
+    .MyPhoto, .MyInfo{
+        width: 100%;
+        justify-content: center;
+        margin: 0 3em 0 3em;
+    }
+    .MyInfoText{
+        text-align: center;
+    }
+}
