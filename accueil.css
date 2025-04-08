@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     /* padding: 0; */
     text-decoration: none;
 }
+
 /* En tête et Pied */
 header,
 footer {
@@ -10,7 +11,7 @@ footer {
     background-image: linear-gradient(darkcyan, yellow);
     display: flex;
     align-items: center;
-    padding: 1.2em 2.4em;
+    padding: 1.2rem 2.4rem;
     color: white;
 
     a {
@@ -33,7 +34,7 @@ footer {
 
 .MyFooter {
     p {
-        padding-bottom: 0.8em;
+        padding-bottom: 0.8rem;
         font-size: 1.2rem;
     }
 }
@@ -47,52 +48,60 @@ footer {
     display: flex;
     justify-content: space-between;
     font-size: 1.2rem;
-    gap: 0.8em;
+    gap: 0.8rem;
 }
 /* Section Main */
 #MyMain{
-    height: 81.5vh;
+    height: 80vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.MyPhoto, .MyInfo{
+.MyInfo,.MyPhoto{
     width: 50%;
-    padding: 8em;
+}
+.MyInfo{
+    margin: 0 10em 0 5em;
 }
 .MyPhoto{
     display: flex;
-    justify-content: flex-end;
-    img{
+    justify-content: end;      
+    img {
         border-radius: 80em;
     }
-}
-.MyInfo{
-    display: flex;
-    flex-direction: column;
 }
 .MyInfoText {
     padding: 2em;
     text-align: justify;
-    h1, h2, p{
+
+    h1,
+    h2,
+    p {
         padding: 0.2em;
         color: darkcyan;
     }
 }
-h1{
-    font-size: 5rem;
-}
-h2{
+
+h1 {
     font-size: 3rem;
 }
-p{
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
     font-size: 1.5rem;
 }
-.MyInfoLien{
+.MyInfoLien {
     display: flex;
     justify-content: center;
     gap: 1em;
     text-align: center;
 }
-#CV, #Projects, #Contact{
+#CV,
+#Projects,
+#Contact {
     width: 5em;
     height: 5em;
     border-radius: 50px;
@@ -102,13 +111,18 @@ p{
     line-height: 5em;
     color: white;
 }
-#CV{
+
+#CV {
     background: yellow;
     color: darkcyan;
 }
-#Projects{
+
+#Projects {
     background-image: linear-gradient(to right, yellow, darkcyan)
 }
-#Contact{
-background: darkcyan;
+
+#Contact {
+    background: darkcyan;
 }
+/* Partie Responsive */
+
