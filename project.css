@@ -1,0 +1,10 @@
+main{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+h1{
+    color: darkcyan;
+    font-size: 2em;
+    text-align: center;
+}

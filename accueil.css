@@ -50,13 +50,13 @@ p {
 #CV,
 #Projects,
 #Contact {
-    width: 5em;
-    height: 5em;
+    width: 4.5em;
+    height: 4.5em;
     border-radius: 50px;
     border: none;
     font-size: 1.2rem;
     text-align: center;
-    line-height: 5em;
+    line-height: 4.5em;
     color: white;
 }
 
@@ -71,6 +71,7 @@ p {
 
 #Contact {
     background: darkcyan;
+    color: yellow;
 }
 /* Partie Responsive */
 
